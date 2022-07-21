@@ -1,0 +1,162 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    font-size: medium;
+    color: white;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin: 8px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0px;
+}
+
+li{
+    margin: 0px 40px;
+}
+
+button{
+    color: #F03639;
+    background-color: white;
+    font-size: large;
+    height: 100px;
+    width: 100px;
+    padding: 12px 12px;
+    border: 2px solid;
+    border-radius: 6px;
+    border-width: 1px 1px 1px;
+    box-shadow: 5px 5px 0px;
+    text-align: center;
+    cursor: pointer;
+    transition-duration: 0.2ms;
+}
+
+button:hover{
+    background-color: whitesmoke;
+}
+
+button:active{
+    border-radius: 8px;
+    border-width: 1px 1px 1px 1px;
+    box-shadow: 2px 2px 1px 1px;
+}
+
+.header,
+.footer{
+    background-image: linear-gradient(#F03639, #FC383B);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 15px 0px;
+    margin: 0px;
+}
+
+.banner{
+    display: flex;
+}
+
+.rules{
+    font-weight: lighter;
+    font-size: small;
+}
+
+.left,
+.right{
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse;
+}
+
+.lang{
+    font-size: small;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    background-color: white;
+    opacity: 0.8;
+    background-image: radial-gradient(#1DA0F0 0.25px, white 0.5px);
+    background-size: 10px 10px;
+    color: #F03639;
+    width: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+}
+
+.info{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin: 6px;
+}
+
+.feed{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+}
+
+.round{
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-bottom: 45px;
+}
+
+.score{
+    background-color: #F03639;
+    color: white;
+}
+
+.selection{
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.end-screen{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    width: auto;
+}
+
+.newGame{
+    background-color: white;
+    font-size: large;
+    margin-bottom: 30px;
+}
+
+.victory{
+    width: 128px;
+    height: 32px;
+    margin: auto;
+    padding: 0px;
+}
