@@ -109,7 +109,7 @@ function game(outcome){
         end.appendChild(again);
         content.appendChild(end);
 
-        again.onclick = function (){ console.log(window.location.reload());};
+        again.onclick = () => { console.log(window.location.reload());};
         }
     }
 }
